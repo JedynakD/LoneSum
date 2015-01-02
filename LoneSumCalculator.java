@@ -36,8 +36,7 @@ public class LoneSumCalculator {
 		int counter = 0;
 		for (int i = 0; i < 3; i++) {
 			if (countedValue == listOfValues.get(i)) {
-				counter++;
-				
+				counter++;	
 			}
 		}
 		return counter;
